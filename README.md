@@ -85,8 +85,8 @@ Use the following questions to explore the database, and find the answers to pro
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. We will need to use the aggregation method to answer this. The first 5 rows of our resulting DataFrame should look something like this:
 
-    | \_id | count |
-    |------|-------|
+    |   | \_id | count |
+    |---|------|-------|
     | 0 | Thanet | 1130 |
     | 1 | Greenwich | 882 |
     | 2 | Maidstone | 713 |
