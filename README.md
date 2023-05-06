@@ -78,10 +78,19 @@ Use the following questions to explore the database, and find the answers to pro
     - Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1. Which establishments have a hygiene score equal to 20?
+    - There are 41 establishments in the collection with a hygiene score of 20. Specific results are presented in the exploratory data analysis Jupyter Notebook.
 
 2. Which establishments in London have a `RatingValue` greater than or equal to 4? The London Local Authority has a longer name than "London" so we will need to use `$regex` as part of our search.
+    - There are 33 establishments in the collection with London as the Local Authority and with a Rating Value greater than or equal to 4. Specific results are presented in the exploratory data analysis Jupyter Notebook.
 
 3. What are the top 5 establishments with a `RatingValue` of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"? We will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
+
+    | Business Name | Business Type |
+    |---------------|---------------|
+    | Atlantic Fish Bar | Takeaway/sandwich shop |
+    | Plumstead Manor Nursery | Caring Premises | 
+    | Iceland | Retailers - supermarkets/hypermarkets | 
+    | Volunteer | Pub/bar/nightclub |
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas. We will need to use the aggregation method to answer this. The first 5 rows of our resulting DataFrame should look something like this:
 
@@ -92,3 +101,8 @@ Use the following questions to explore the database, and find the answers to pro
     | 2 | Maidstone | 713 |
     | 3 | Newham | 711 |
     | 4 | Swale | 686 |
+    | 5 | Chelmsford | 680 |
+    | 6 | Medway | 672 |
+    | 7 | Bexley | 607 |
+    | 8 | Southend-On-Sea | 586 |
+    | 9 | Tendring | 542 |
