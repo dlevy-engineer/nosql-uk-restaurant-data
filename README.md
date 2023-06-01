@@ -1,5 +1,5 @@
-# nosql-challenge
-A NoSQL data engineering exercise evaluating UK Food Standards Agency data on behalf of a digital publishing company looking for future article focal points.
+# nosql-uk-restaurant-data
+A NoSQL (MongoDB) data engineering exercise evaluating UK Food Standards Agency data on behalf of a digital publishing company looking for future article focal points.
 
 ## Background
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. In this NoSQL project, we have been contracted by the editors of an online food magazine, _Eat Safe, Love_, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
