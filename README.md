@@ -1,8 +1,8 @@
 # nosql-challenge
-Module 12 submission for UC Berkeley data science bootcamp.
+A NoSQL data engineering exercise evaluating UK Food Standards Agency data on behalf of a digital publishing company looking for future article focal points.
 
 ## Background
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. This NoSQL project assumes that we have been contracted by the editors of a food magazine, _Eat Safe, Love_, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
+The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. In this NoSQL project, we have been contracted by the editors of an online food magazine, _Eat Safe, Love_, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 ### Part 1 — Database Set Up
 1. Import the data contained in `establishments.json` file from the terminal. Instantiate a database named `uk_food` and a collection named `establishments`. From within the `Resources` directory, the dataset was imported with the following command: `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`.
